@@ -1,7 +1,7 @@
 === Add External Media ===
 Contributors: leemon
 Tags: media, attachments, admin, external, oembed
-Requires at least: 3.5
+Requires at least: 4.0
 Tested up to: 4.1.1
 Stable tag: 1.0
 License: GPLv2 or later
