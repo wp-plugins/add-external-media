@@ -20,6 +20,12 @@ Add external media from a [supported oEmbed provider](http://codex.wordpress.org
 = Does this plugin import the actual external media content into the library? =
 No, external media attachments just contain URL references to the original resources
 
+= How can I show an external media attachment with the specified width and height? =
+‘$oembed = new WP_oEmbed();
+$oembed_width = get_post_meta( $attachment->ID, '_oembed_width', true );
+$oembed_height = get_post_meta( $attachment->ID, '_oembed_height', true );
+echo $oembed->get_html( wp_get_attachment_url( $attachment->ID ), array( 'width' => $oembed_width, 'height' => $oembed_height ) );’
+
 = Why are the width and height settings in some media being ignored? =
 Some service providers, such as Twitter and Instagram, have a maximum and minimum allowed width and ignore the height setting completely
 
