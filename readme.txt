@@ -16,6 +16,10 @@ Add external media from a [supported oEmbed provider](http://codex.wordpress.org
 1. Upload the extracted plugin folder and contained files to your /wp-content/plugins/ directory
 2. Activate the plugin through the "Plugins" menu in WordPress
 
+== Frequently Asked Questions ==
+= Does this plugin import the actual external media content into the library? =
+No, external media attachments just contain URL references to the original resources
+
 == Screenshots ==
 1. Enter the url and size of the external media you'd like to add to the media library here
 
