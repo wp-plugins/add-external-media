@@ -26,7 +26,7 @@ $oembed_width = get_post_meta( $attachment->ID, '_oembed_width', true );
 $oembed_height = get_post_meta( $attachment->ID, '_oembed_height', true );
 echo $oembed->get_html( wp_get_attachment_url( $attachment->ID ), array( 'width' => $oembed_width, 'height' => $oembed_height ) );`
 
-= Why are the width and height settings in some media being ignored? =
+= Why are the width and height settings in some external media attachments being ignored? =
 Some service providers, such as Twitter and Instagram, have a maximum and minimum allowed width and ignore the height setting completely
 
 == Screenshots ==
