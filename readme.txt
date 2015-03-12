@@ -20,6 +20,9 @@ Add external media from a [supported oEmbed provider](http://codex.wordpress.org
 = Does this plugin import the actual external media content into the library? =
 No, external media attachments just contain URL references to the original resources
 
+= Why are the width and height settings in some media being ignored? =
+Some service providers, such as Twitter and Instagram, have a maximum and minimum allowed width and ignore the height setting completely
+
 == Screenshots ==
 1. Enter the url and size of the external media you'd like to add to the media library here
 
