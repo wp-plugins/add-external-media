@@ -3,7 +3,7 @@ Contributors: leemon
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=tacrapo%40gmail%2ecom
 Tags: media, attachments, admin, external, oembed
 Requires at least: 4.0
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
