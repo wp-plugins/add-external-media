@@ -1,6 +1,6 @@
 === Add External Media ===
 Contributors: leemon
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=tacrapo%40gmail%2ecom
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=oscarciutat%40gmail%2ecom
 Tags: media, attachments, admin, external, oembed
 Requires at least: 4.0
 Tested up to: 4.3
